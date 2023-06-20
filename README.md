@@ -20,8 +20,10 @@ easyOcr 한국어모델 koreaG2모델을 이용해 한국어 단어(위키디피
 [Ai-Hub 한국어 글자체 이미지](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=81)
 # prepare
 ------
-   git clone https://github.com/JaidedAI/EasyOCR.git
-   git clone https://github.com/clovaai/deep-text-recognition-benchmark.git
+
+      git clone https://github.com/JaidedAI/EasyOCR.git
+      git clone https://github.com/clovaai/deep-text-recognition-benchmark.git
+      
 ------
 
 # train :
