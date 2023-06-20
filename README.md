@@ -28,7 +28,7 @@ easyOcr 한국어모델 koreaG2모델을 이용해 한국어 단어(위키디피
 
 # train :
 ------
-EASYocr 추가학습
+### EASYocr 추가학습
             CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./deep-text-recognition-benchmark/train.py \
              --train_data ./deep-text-recognition-benchmark/htr_data_lmdb/train \
              --valid_data ./deep-text-recognition-benchmark/htr_data_lmdb/validation \
@@ -47,7 +47,7 @@ EASYocr 추가학습
                  --FT
 
 
-처음부터 학습
+### 처음부터 학습
             CUDA_VISIBLE_DEVICES=0,1,2,3 python3 ./deep-text-recognition-benchmark/train.py \
                 --train_data ./deep-text-recognition-benchmark/htr_data_lmdb/train \
                 --valid_data ./deep-text-recognition-benchmark/htr_data_lmdb/validation \
